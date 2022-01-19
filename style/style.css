@@ -1,0 +1,218 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  height: 1000px; }
+
+.container-fluid .row header {
+  position: fixed;
+  z-index: 9;
+  left: 0; }
+  .container-fluid .row header a {
+    text-decoration: none; }
+  .container-fluid .row header .col-1 {
+    background-color: black; }
+    .container-fluid .row header .col-1 .img1 {
+      z-index: 99999999999;
+      width: 98px;
+      height: 150px; }
+    .container-fluid .row header .col-1 h6 {
+      margin-left: -10px !important;
+      width: 100px;
+      border-bottom: 2px solid #4a4444;
+      font-family: Algerian,sans-serif;
+      color: #4a4444; }
+    .container-fluid .row header .col-1 h6:hover {
+      cursor: pointer;
+      color: orange; }
+  .container-fluid .row header .c1 {
+    z-index: 1;
+    position: fixed;
+    width: 100% !important;
+    background-color: #161414; }
+  .container-fluid .row header .c3 {
+    z-index: 1;
+    position: fixed;
+    margin-top: 55px;
+    background-color: #161414; }
+  .container-fluid .row header .c4 {
+    position: fixed;
+    z-index: 1;
+    margin-top: 130px;
+    background-color: #161414; }
+  .container-fluid .row header .c5 {
+    position: fixed;
+    margin-top: 190px;
+    z-index: 1;
+    background-color: #161414; }
+  .container-fluid .row header .c6 {
+    margin-left: -1px !important;
+    z-index: 1;
+    position: fixed;
+    height: 288px !important;
+    margin-top: 250px;
+    background-color: #161414; }
+    .container-fluid .row header .c6 .img2 {
+      opacity: 1;
+      width: 35px;
+      height: 35px;
+      animation-name: img2;
+      animation-iteration-count: infinite;
+      animation-duration: 2s; }
+@keyframes img2 {
+  100% {
+    transform: rotate(360deg); } }
+    .container-fluid .row header .c6 .img2:hover {
+      opacity: 0.8; }
+.container-fluid .row .section1 {
+  height: 657px;
+  width: 1269px;
+  margin-left: 97px;
+  background-color: #211e1e; }
+  .container-fluid .row .section1 .col-5 {
+    margin-top: 30px;
+    margin-left: 600px;
+    height: 620px;
+    position: absolute; }
+  .container-fluid .row .section1 .input23 {
+    border-radius: 10px;
+    margin-top: 30px !important;
+    margin-left: -519px !important;
+    width: 515px !important;
+    border: none;
+    text-decoration: none;
+    background-color: #323131;
+    height: 150px; }
+  .container-fluid .row .section1 .input22::placeholder {
+    color: #ab9f9f; }
+  .container-fluid .row .section1 .input23::placeholder {
+    position: absolute;
+    color: #ab9f9f; }
+  .container-fluid .row .section1 .input22 {
+    border-radius: 10px;
+    margin-left: 35px;
+    width: 515px !important;
+    border: none;
+    text-decoration: none;
+    background-color: #323131; }
+  .container-fluid .row .section1 .row input {
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    text-decoration: none;
+    background-color: #323131; }
+  .container-fluid .row .section1 .row input::placeholder {
+    color: #ab9f9f; }
+  .container-fluid .row .section1 h1 {
+    margin-top: 180px !important;
+    color: orange;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive; }
+  .container-fluid .row .section1 h2 {
+    color: orange;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive; }
+  .container-fluid .row .section1 .carousel-inner {
+    height: 500px; }
+  .container-fluid .row .section1 .r1 {
+    transform: rotate(90deg); }
+    .container-fluid .row .section1 .r1 h5 {
+      animation-name: scroll;
+      animation-duration: 0.7s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      color: #ffa500;
+      margin-top: 60px; }
+    .container-fluid .row .section1 .r1 img {
+      animation-name: scroll;
+      animation-duration: 0.7s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      margin-top: 60px;
+      width: 30px;
+      height: 30px; }
+@keyframes scroll {
+  0% {
+    top: 0;
+    left: 0; }
+  100% {
+    margin-left: 30px; } }
+  .container-fluid .row .section1 .col-7 h3 {
+    margin-top: -28px;
+    margin-left: 730px;
+    color: orange; }
+  .container-fluid .row .section1 .col-7 h6 {
+    margin-left: 670px;
+    color: orange; }
+  .container-fluid .row .section1 .col-7 .progress .progress-bar {
+    width: 99%; }
+.container-fluid .row .section2 {
+  height: 800px;
+  width: 1269px;
+  margin-left: 97px;
+  background-color: #211e1e; }
+  .container-fluid .row .section2 ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange; }
+  .container-fluid .row .section2 a img {
+    margin-top: 80px; }
+  .container-fluid .row .section2 a img:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: orange 5px 5px 5px 2px;
+    transition: 2s ease; }
+  .container-fluid .row .section2 h1 {
+    margin-top: 35px !important;
+    color: orange;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive; }
+  .container-fluid .row .section2 h2 {
+    color: orange;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive; }
+  .container-fluid .row .section2 .carousel-inner {
+    height: 500px; }
+    .container-fluid .row .section2 .carousel-inner .carousel-item .container {
+      position: relative;
+      width: 50%; }
+    .container-fluid .row .section2 .carousel-inner .carousel-item .c32 {
+      margin-top: -30px; }
+    .container-fluid .row .section2 .carousel-inner .carousel-item .c33 {
+      margin-top: -50px; }
+    .container-fluid .row .section2 .carousel-inner .carousel-item .img12 {
+      height: 165px !important; }
+  .container-fluid .row .section2 .r1 {
+    transform: rotate(90deg); }
+    .container-fluid .row .section2 .r1 h5 {
+      animation-name: scroll;
+      animation-duration: 0.7s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      color: #ffa500;
+      margin-top: 60px; }
+    .container-fluid .row .section2 .r1 img {
+      animation-name: scroll;
+      animation-duration: 0.7s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      margin-top: 60px;
+      width: 30px;
+      height: 30px; }
+@keyframes scroll {
+  0% {
+    top: 0;
+    left: 0; }
+  100% {
+    margin-left: 30px; } }
+  .container-fluid .row .section2 .col-7 h3 {
+    margin-top: -28px;
+    margin-left: 730px;
+    color: orange; }
+  .container-fluid .row .section2 .col-7 h6 {
+    margin-left: 670px;
+    color: orange; }
+  .container-fluid .row .section2 .col-7 .progress .progress-bar {
+    width: 99%; }
+
+/*# sourceMappingURL=style.css.map */

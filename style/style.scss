@@ -1,0 +1,294 @@
+$qora: #211e1e;
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 1000px;
+}
+.container-fluid{
+  .row{
+    header{
+      position: fixed;
+      z-index: 9;
+      left: 0;
+      a{
+        text-decoration: none;
+      }
+      .col-1{
+        background-color: black;
+        .img1{
+          z-index: 99999999999;
+          width: 98px;
+          height: 150px;
+        }
+        h6{
+          margin-left: -10px !important;
+          width: 100px;
+          border-bottom: 2px solid #4a4444;
+          font-family: Algerian,sans-serif;
+          color: #4a4444;
+        }
+        h6:hover{
+          cursor: pointer;
+          color: orange;
+        }
+      }
+      .c1{
+
+        z-index: 1;
+        position: fixed;
+        width: 100% !important;
+        background-color: #161414;
+      }
+      .c3{
+        z-index: 1;
+        position: fixed;
+        margin-top: 55px;
+        background-color: #161414;
+      }
+      .c4{
+        position: fixed;
+        z-index: 1;
+        margin-top: 130px;
+        background-color: #161414;
+      }
+      .c5{
+        position: fixed;
+        margin-top: 190px;
+        z-index: 1;
+        background-color: #161414;
+      }
+      .c6{
+        margin-left: -1px !important;
+        z-index: 1;
+        position: fixed;
+        height: 288px !important;
+        margin-top: 250px;
+        background-color: #161414;
+        .img2{
+          opacity: 1;
+          width: 35px;
+          height: 35px;
+          animation-name: img2;
+          animation-iteration-count: infinite;
+          animation-duration: 2s;
+        }
+        @keyframes img2 {
+          100%{
+            transform: rotate(360deg);
+          }
+        }
+        .img2:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+    .section1{
+      height: 657px;
+      width: 1269px;
+      margin-left: 97px;
+       background-color: $qora;
+      .col-5{
+        margin-top: 30px;
+        margin-left: 600px;
+        height: 620px;
+        position: absolute;
+      }
+      .input23{
+        border-radius: 10px;
+        margin-top: 30px !important;
+        margin-left: -519px !important;
+        width: 515px !important;
+        border: none;
+        text-decoration: none;
+        background-color: #323131;
+        height: 150px;
+      }
+      .input22::placeholder{
+        color: #ab9f9f;
+      }
+      .input23::placeholder{
+        position: absolute;
+        color: #ab9f9f;
+      }
+      .input22{
+        border-radius: 10px;
+        margin-left: 35px;
+        width: 515px !important;
+        border: none;
+        text-decoration: none;
+        background-color: #323131;
+      }
+      .row{
+        input{
+          border-radius: 10px;
+          width: 250px;
+          border: none;
+            text-decoration: none;
+          background-color: #323131;
+        }
+        input::placeholder{
+          color: #ab9f9f;
+        }
+      }
+      h1{
+        margin-top: 180px !important;
+          color: orange;
+          font-size: 100px;
+          font-family: 'Pacifico', cursive;;
+        }
+      h2{
+        color: orange;
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;
+      }
+      .carousel-inner{
+        height: 500px;
+      }
+      .r1{
+        transform: rotate(90deg);
+        h5{
+          animation-name: scroll;
+          animation-duration: 0.7s;
+          animation-direction: alternate-reverse;
+          animation-iteration-count: infinite;
+          color: #ffa500;
+          margin-top: 60px;
+        }
+        img{
+          animation-name: scroll;
+          animation-duration: 0.7s;
+          animation-direction: alternate-reverse;
+          animation-iteration-count: infinite;
+          margin-top: 60px;
+          width: 30px;
+          height: 30px;
+        }
+        @keyframes scroll {
+          0%{
+            top: 0;
+            left: 0;
+          }
+          100%{
+            margin-left: 30px;
+          }
+        }
+      }
+      .col-7{
+        h3{
+          margin-top: -28px;
+          margin-left: 730px;
+          color: orange;
+        }
+        h6{
+          margin-left: 670px;
+          color: orange;
+        }
+        .progress{
+          .progress-bar{
+            width: 99%;
+          }
+        }
+      }
+    }
+    .section2{
+      height: 800px;
+      width: 1269px;
+      margin-left: 97px;
+      background-color: $qora;
+
+        ul{
+            li{
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              background-color: orange;
+            }
+        }
+      a{
+        img{
+          margin-top: 80px;
+        }
+        img:hover{
+          transform: scale(1.2, 1.2);
+          box-shadow: orange 5px 5px 5px 2px ;
+          transition: 2s ease;
+        }
+      }
+      h1{
+        margin-top: 35px !important;
+        color: orange;
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;;
+      }
+      h2{
+        color: orange;
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;
+      }
+      .carousel-inner{
+        height: 500px;
+        .carousel-item{
+          .container {
+            position: relative;
+            width: 50%;
+          }
+          .c32{
+            margin-top: -30px;
+          }
+          .c33{
+            margin-top: -50px;
+          }
+          .img12{
+              height: 165px !important;
+          }
+        }
+      }
+      .r1{
+        transform: rotate(90deg);
+        h5{
+          animation-name: scroll;
+          animation-duration: 0.7s;
+          animation-direction: alternate-reverse;
+          animation-iteration-count: infinite;
+          color: #ffa500;
+          margin-top: 60px;
+        }
+        img{
+          animation-name: scroll;
+          animation-duration: 0.7s;
+          animation-direction: alternate-reverse;
+          animation-iteration-count: infinite;
+          margin-top: 60px;
+          width: 30px;
+          height: 30px;
+        }
+        @keyframes scroll {
+          0%{
+            top: 0;
+            left: 0;
+          }
+          100%{
+            margin-left: 30px;
+          }
+        }
+      }
+      .col-7{
+        h3{
+          margin-top: -28px;
+          margin-left: 730px;
+          color: orange;
+        }
+        h6{
+          margin-left: 670px;
+          color: orange;
+        }
+        .progress{
+          .progress-bar{
+            width: 99%;
+          }
+        }
+      }
+    }
+  }
+}
